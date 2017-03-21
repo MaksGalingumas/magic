@@ -1,6 +1,6 @@
 <?php
-
-class voke {
+namespace magic;
+class Voke {
     public function __invoke($length, $hidden) {
         $this->length = $length;
         $this->hidden = $hidden;
@@ -11,5 +11,5 @@ class voke {
     
 }
 
-$voke = new voke(10);
+$voke = new Voke(10);
 echo $voke(5, TRUE);

@@ -1,5 +1,5 @@
 <?php
-class state{
+class State{
     public $length=10;
     public function __set_state($array){
         $obj = new state ($array['length']);
@@ -10,7 +10,7 @@ class state{
     
 }
 
-$v1 = new state();
+$v1 = new State();
 eval('$c=' . var_export($v1, TRUE). ';');
 echo $c->length;
 echo $c->hidden;

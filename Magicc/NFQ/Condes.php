@@ -1,6 +1,6 @@
 <?php
 
-class condes{
+class Condes{
     public $title;
     
     public function __construct($title) {
@@ -12,7 +12,7 @@ class condes{
 }
 
 try{
-    $magic = new condes('MesMylimNFQ');
+    $magic = new Condes('MesMylimNFQ');
     echo $magic->title;
     unset ($magic);
     echo '<br>';

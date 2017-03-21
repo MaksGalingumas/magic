@@ -1,5 +1,5 @@
 <?php
-    class call{
+    class Call{
         protected function nfq1(){
             return 'NFQ Skambina';
         }
@@ -20,7 +20,7 @@
         
     }
     
-    $static = new call();
+    $static = new Call();
     echo call::nfq1() . "<br>";
    
     echo call::nfq2();

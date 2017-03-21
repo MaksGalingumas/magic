@@ -1,5 +1,5 @@
 <?php
-class getset{
+class Getset{
     protected $pasleptas = 'Default';
     public $cloned = FALSE;
     
@@ -30,7 +30,7 @@ class getset{
  
 }
 
-$setget = new getset(10);
+$setget = new Getset(10);
 echo $setget->pasleptas . '<br>';
 echo $setget->pasleptas = 'Nauja paslepta verte';
 echo "<br>";
